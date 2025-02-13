@@ -71,8 +71,7 @@ export const DATA = {
       logoUrl: "/bae.png",
       start: "05/2024",
       end: "Present",
-      // description:
-      //   "Designed and engineered a benchmark generation system for [Amazon Q Code Transformation](https://aws.amazon.com/q/developer/code-transformation/), an LLM-powered product that automates codebase migration, enhancing the evaluation of migration success rates",
+      description: "",
     },
     {
       company: "Swarthmore College",
@@ -83,8 +82,7 @@ export const DATA = {
       logoUrl: "/swarthmore.jpg",
       start: "08/2024",
       end: "Present",
-      // description:
-      //   "Owned Profit & Loss of online channels, achieving 3x core metrics growth in 1 year",
+      description: "",
     },
     {
       company: "Bank of Saipan",
@@ -95,8 +93,7 @@ export const DATA = {
       logoUrl: "/bos.png",
       start: "05/2023",
       end: "08/2023",
-      // description:
-      //   "Advised consumer goods and retail clients on growth strategy, market entry, and due diligence projects",
+      description: "",
     },
   ],
   education: [
