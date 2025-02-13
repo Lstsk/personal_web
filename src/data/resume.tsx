@@ -71,8 +71,8 @@ export const DATA = {
       logoUrl: "/bae.png",
       start: "05/2024",
       end: "Present",
-      description:
-        "Designed and engineered a benchmark generation system for [Amazon Q Code Transformation](https://aws.amazon.com/q/developer/code-transformation/), an LLM-powered product that automates codebase migration, enhancing the evaluation of migration success rates",
+      // description:
+      //   "Designed and engineered a benchmark generation system for [Amazon Q Code Transformation](https://aws.amazon.com/q/developer/code-transformation/), an LLM-powered product that automates codebase migration, enhancing the evaluation of migration success rates",
     },
     {
       company: "Swarthmore College",
@@ -83,8 +83,8 @@ export const DATA = {
       logoUrl: "/swarthmore.jpg",
       start: "08/2024",
       end: "Present",
-      description:
-        "Owned Profit & Loss of online channels, achieving 3x core metrics growth in 1 year",
+      // description:
+      //   "Owned Profit & Loss of online channels, achieving 3x core metrics growth in 1 year",
     },
     {
       company: "Bank of Saipan",
@@ -95,8 +95,8 @@ export const DATA = {
       logoUrl: "/bos.png",
       start: "05/2023",
       end: "08/2023",
-      description:
-        "Advised consumer goods and retail clients on growth strategy, market entry, and due diligence projects",
+      // description:
+      //   "Advised consumer goods and retail clients on growth strategy, market entry, and due diligence projects",
     },
   ],
   education: [
@@ -111,85 +111,123 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "AI Closet",
-      href: "https://github.com/carsoneth/ai-closet/tree/main",
-      dates: "Oct 2024 - Dec 2024",
+      title: "Weiqi.com",
+      href: "https://github.com/BinaryRuns/weiqi.com",
+      dates: "Dec 2024 - Present",
       active: true,
       description:
-        "A mobile app that helps users digitize their closet, get outfit inspirations, and virtually try on clothes of their own or from online stores.",
+        "Weiqi.com is an online Go platform (also known as Weiqi or Baduk) delivering a seamless experience for all skill levels, featuring real-time multiplayer, AI integration, and game analysis.",
       technologies: [
         "Typescript",
-        "React Native",
-        "Expo",
-        "AWS",
-        "Comfy UI",
+        "Java",
+        "Spring Boot",
+        "WebSocket",
+        "Docker",
         "TailwindCSS",
         "Figma",
         "Shadcn UI",
-        "Magic UI",
+        "React",
+        "Redis",
+        "PostgreSQL",
+        "OAuth",
+        "JWT",
       ],
       links: [
         {
           type: "Source",
-          href: "https://github.com/carsoneth/ai-closet/tree/main",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/ai_closet.png",
-      video: "",
-    },
-    {
-      title: "Insight Reviews",
-      href: "https://insightful.streamlit.app/",
-      dates: "Jun 2023 - Aug 2023",
-      active: true,
-      description:
-        "A GPT-powered e-commerce product review analysis platform for e-commerce sellers.",
-      technologies: [
-        "LLM",
-        "Langchain",
-        "Python",
-        "Pandas",
-        "Streamlit",
-        "TailwindCSS",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://insightful.streamlit.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/carsoneth/Insight_Reviews",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/insight_reviews.png",
-      video: "",
-    },
-    {
-      title: "DirPrint",
-      href: "https://pypi.org/project/DirPrint/",
-      dates: "Mar 2024",
-      active: true,
-      description:
-        "A command-line tool that simplifies the process of sharing of your project's directory structure and file contents, making it ideal for collaboration with LLMs (like ChatGPT, Claude, etc.).",
-      technologies: ["Python", "Command Line Tool"],
-      links: [
-        {
-          type: "PyPI",
-          href: "https://pypi.org/project/DirPrint/",
-          icon: <Icons.Python className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/carsoneth/DirPrint",
+          href: "https://github.com/BinaryRuns/weiqi.com",
           icon: <Icons.github className="size-3" />,
         },
       ],
       image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
+      video: "./weiqi_demo.mp4",
+    },
+    {
+      title: "Blucks Clip",
+      href: "https://github.com/Lstsk/blucks-clip",
+      dates: "Dec 2024 - Jan 2024",
+      active: true,
+      description:
+        "TheBlucks.com uses AI to pinpoint key moments in videos, making long content instantly navigable. Built with Google Cloud, Flask, Gemini and React with TypeScript, it streamlines video exploration.",
+      technologies: [
+        "Google Cloud",
+        "Flask",
+        "React",
+        "TypeScript",
+        "Python",
+        "Gemini",
+        "TailwindCSS",
+        "OAuth",
+        "JWT",
+        "FFmpeg",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://theblucks.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Lstsk/blucks-clip",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/blucks_clip.png",
+      video: "",
+    },
+
+    {
+      title: "Tri-Core",
+      href: "https://github.com/Lstsk/Tri-CoRe",
+      dates: "Oct 2024 - Nov 2024",
+      active: true,
+      description:
+        "Tri-CoRe is a unified platform that streamlines course registration and research applications for the Tri-Co Consortium, featuring a comprehensive course catalog, course ratings, and a centralized research portal.",
+      technologies: [
+        "Typescript",
+        "Next.js",
+        "ASP .NET",
+        "MongoDB",
+        "JSON",
+        "TailwindCSS",
+        "Figma",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/Lstsk/Tri-CoRe?",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/tricore.gif",
+      video: "",
+    },
+
+    {
+      title: "Game of Life",
+      href: "https://github.com/Lstsk/game-of-life",
+      dates: "Jun 2023 - Aug 2023",
+      active: true,
+      description:
+        "An interactive simulation of Conway's Game of Life that visualizes the evolution of cellular automata.",
+      technologies: [
+        "C",
+        "POSIX Threads",
+        "ParaVis Library",
+        "ASCII Output",
+        "Makefile",
+        "Valgrind",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/Lstsk/game-of-life",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/gol.png",
+      video: "",
     },
   ],
   hackathons: [
