@@ -146,6 +146,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
+      video: "",
       image: "/nilai.png",
     },
     {
