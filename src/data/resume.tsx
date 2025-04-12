@@ -119,6 +119,36 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Nilai - AI Browser Companion",
+      href: "https://chromewebstore.google.com/detail/nilai/pladablfphgjljebkeomhjcjdkohcnen",
+      dates: "Jan 2024 - Present",
+      active: true,
+      description:
+        "Nilai is an AI-powered browser assistant that enhances your web experience by providing intelligent summaries, smart link suggestions, and contextual support for both webpages and PDFs.",
+      technologies: [
+        "Typescript",
+        "Webpack",
+        "Manifest V3",
+        "DOMParser",
+        "FastAPI",
+        "TailwindCSS",
+        "Python",
+        "Google Cloud",
+        "LangChain",
+        "Vector Search",
+        "Grafana",
+        "Cloud Build",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://github.com/BinaryRuns/weiqi.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/nilai.png",
+    },
+    {
       title: "Weiqi.com",
       href: "https://github.com/BinaryRuns/weiqi.com",
       dates: "Dec 2024 - Present",
@@ -143,7 +173,7 @@ export const DATA = {
       links: [
         {
           type: "Source",
-          href: "https://github.com/BinaryRuns/weiqi.com",
+          href: "https://chromewebstore.google.com/detail/nilai/pladablfphgjljebkeomhjcjdkohcnen",
           icon: <Icons.github className="size-3" />,
         },
       ],
