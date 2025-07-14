@@ -63,6 +63,17 @@ export const DATA = {
 
   work: [
     {
+      company: "Gnosis Freight",
+      href: "https://gnosisfreight.com",
+      badges: [],
+      location: "Remote",
+      title: "Software Engineer",
+      logoUrl: "/gnosis-freight.png",
+      start: "05/2025",
+      end: "Present",
+      description: "",
+    },
+    {
       company: "BAE System",
       href: "https://www.baesystems.com/en-us/home",
       badges: [],
@@ -70,7 +81,7 @@ export const DATA = {
       title: "Software Engineer Intern | Part Time",
       logoUrl: "/bae.png",
       start: "09/2024",
-      end: "Present",
+      end: "05/2025",
       description: "",
     },
     {
@@ -113,42 +124,11 @@ export const DATA = {
       href: "https://www.swarthmore.edu/",
       degree: "Bachelor of Science, Computer Science & Mathematics",
       logoUrl: "/swarthmore.jpg",
-      start: "",
-      end: "2026",
+      start: "2023",
+      end: "2027",
     },
   ],
   projects: [
-    {
-      title: "Nilai - AI Browser Companion",
-      href: "https://chromewebstore.google.com/detail/nilai/pladablfphgjljebkeomhjcjdkohcnen",
-      dates: "Jan 2024 - Present",
-      active: true,
-      description:
-        "Nilai is an AI-powered browser assistant that enhances your web experience by providing intelligent summaries, smart link suggestions, and contextual support for both webpages and PDFs.",
-      technologies: [
-        "Typescript",
-        "Webpack",
-        "Manifest V3",
-        "DOMParser",
-        "FastAPI",
-        "TailwindCSS",
-        "Python",
-        "Google Cloud",
-        "LangChain",
-        "Vector Search",
-        "Grafana",
-        "Cloud Build",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://github.com/BinaryRuns/weiqi.com",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      video: "",
-      image: "/nilai.png",
-    },
     {
       title: "Weiqi.com",
       href: "https://github.com/BinaryRuns/weiqi.com",
@@ -171,20 +151,82 @@ export const DATA = {
         "OAuth",
         "JWT",
       ],
-      links: [
+       links: [
         {
-          type: "Source",
-          href: "https://chromewebstore.google.com/detail/nilai/pladablfphgjljebkeomhjcjdkohcnen",
-          icon: <Icons.github className="size-3" />,
+          type: "Website",
+          href: "https://github.com/BinaryRuns/weiqi.com",
+          icon: <Icons.globe className="size-3" />,
         },
       ],
       image: "",
       video: "./weiqi_demo.mp4",
     },
     {
+      title: "Hatch Compiler - Bird Language",
+      href: "https://github.com/Lstsk/compiler",
+      dates: "Jan 2025 - May 2025",
+      active: true,
+      description:
+        "A full-featured compiler for the Bird programming language, written in OCaml. Features arithmetic operations, variable bindings, first-class functions, control flow, type checking, and garbage collection. Built as part of CS75: Compilers at Swarthmore College.",
+      technologies: [
+        "OCaml",
+        "Dune",
+        "Menhir",
+        "Assembly",
+        "Lexical Analysis",
+        "Parser Generation",
+        "Type Checking",
+        "Code Generation",
+        "Garbage Collection",
+        "C",
+        "Makefile",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/Lstsk/compiler",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/compiler.png",
+      video: "",
+    },
+    {
+      title: "Nilai - AI Browser Companion",
+      href: "https://chromewebstore.google.com/detail/nilai/pladablfphgjljebkeomhjcjdkohcnen",
+      dates: "Jan 2025",
+      active: true,
+      description:
+        "Nilai is an AI-powered browser assistant that enhances your web experience by providing intelligent summaries, smart link suggestions, and contextual support for both webpages and PDFs.",
+      technologies: [
+        "Typescript",
+        "Webpack",
+        "Manifest V3",
+        "DOMParser",
+        "FastAPI",
+        "TailwindCSS",
+        "Python",
+        "Google Cloud",
+        "LangChain",
+        "Vector Search",
+        "Grafana",
+        "Cloud Build",
+      ],
+         links: [
+        {
+          type: "Source",
+          href: "https://chromewebstore.google.com/detail/nilai/pladablfphgjljebkeomhjcjdkohcnen",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+
+      video: "",
+      image: "/nilai.png",
+    },
+    {
       title: "Blucks Clip",
       href: "https://github.com/Lstsk/blucks-clip",
-      dates: "Dec 2024 - Jan 2024",
+      dates: "Dec 2024 - Jan 2025",
       active: true,
       description:
         "TheBlucks.com uses AI to pinpoint key moments in videos, making long content instantly navigable. Built with Google Cloud, Flask, Gemini and React with TypeScript, it streamlines video exploration.",
@@ -242,6 +284,7 @@ export const DATA = {
       image: "/tricore.gif",
       video: "",
     },
+
 
     {
       title: "Game of Life",
