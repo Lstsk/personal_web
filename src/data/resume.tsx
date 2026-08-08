@@ -4,7 +4,7 @@ import { HomeIcon, GalleryVerticalEndIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "carson",
   initials: "z. l.",
-  url: "https://carson.li",
+  url: "https://www.carsonlin.dev",
   location: "Sunnyvale, CA",
   locationLink: "https://www.google.com/maps/place/sunnyvale",
   description:
@@ -63,6 +63,28 @@ export const DATA = {
 
   work: [
     {
+      company: "Tesla",
+      href: "https://www.tesla.com",
+      badges: [],
+      location: "Palo Alto, CA",
+      title: "Software Engineer Intern",
+      logoUrl: "/tesla.svg",
+      start: "05/2026",
+      end: "Present",
+      description: "",
+    },
+    {
+      company: "Swarthmore College",
+      href: "https://www.swarthmore.edu/",
+      badges: [],
+      location: "Swarthmore, PA",
+      title: "Undergraduate Machine Learning Researcher",
+      logoUrl: "/swarthmore.jpg",
+      start: "09/2025",
+      end: "Present",
+      description: "",
+    },
+    {
       company: "Gnosis Freight",
       href: "https://gnosisfreight.com",
       badges: [],
@@ -70,7 +92,7 @@ export const DATA = {
       title: "Software Engineer",
       logoUrl: "/gnosis-freight.png",
       start: "05/2025",
-      end: "Present",
+      end: "08/2025",
       description: "",
     },
     {
@@ -160,6 +182,39 @@ export const DATA = {
       ],
       image: "",
       video: "./weiqi_demo.mp4",
+    },
+    {
+      title: "carsonlin.dev - Personal Website",
+      href: "https://www.carsonlin.dev",
+      dates: "Oct 2024 - Present",
+      active: true,
+      description:
+        "The site you're looking at right now — my personal portfolio and blog. Built with Next.js and shadcn/ui, featuring an MDX-powered blog, dark mode, and blur-fade animations, deployed on Vercel.",
+      technologies: [
+        "Typescript",
+        "Next.js",
+        "React",
+        "TailwindCSS",
+        "Shadcn UI",
+        "Magic UI",
+        "Framer Motion",
+        "MDX",
+        "Vercel",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://www.carsonlin.dev",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Lstsk/personal_web",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
     },
     {
       title: "Hatch Compiler - Bird Language",
