@@ -180,8 +180,8 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/hermes.png",
-      video: "",
+      image: "",
+      video: "/hermes_demo.mp4",
     },
     {
       title: "Weiqi.com",
