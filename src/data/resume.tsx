@@ -152,6 +152,38 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Hermes - Agentic Customer Outreach",
+      href: "https://tryhermes.dev",
+      dates: "Apr 2026 - Present",
+      active: true,
+      description:
+        "Hermes is an agentic outreach platform that connects read-only to a team's product data (Postgres, MySQL, Stripe, PostHog, Firestore, CSV) and turns customer behavior into action. A strategist agent surfaces non-obvious cohorts on its own, while triggers scan on a schedule, decide per-person whether now is the right moment, draft a personalized email, and auto-send or hold for review. Operable through the dashboard, a REST API, a hosted MCP server, and a CLI.",
+      technologies: [
+        "Typescript",
+        "Next.js",
+        "React",
+        "Turborepo",
+        "BullMQ",
+        "Redis",
+        "PostgreSQL",
+        "Drizzle ORM",
+        "Vercel AI SDK",
+        "MCP",
+        "Resend",
+        "TailwindCSS",
+        "AES-256-GCM",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://tryhermes.dev",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/hermes.png",
+      video: "",
+    },
+    {
       title: "Weiqi.com",
       href: "https://github.com/BinaryRuns/weiqi.com",
       dates: "Dec 2024 - Present",
