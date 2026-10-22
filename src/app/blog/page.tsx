@@ -23,8 +23,8 @@ export default async function BlogPage() {
           .map((post) => (
             <Row key={post.slug} href={`/blog/${post.slug}`}>
               <RowTop>
-                <span>{post.metadata.title}</span>
-                <span className="whitespace-nowrap text-muted-foreground">
+                <span className="font-mono">{post.metadata.title}</span>
+                <span className="whitespace-nowrap font-mono text-sm text-muted-foreground">
                   {post.metadata.publishedAt}
                 </span>
               </RowTop>

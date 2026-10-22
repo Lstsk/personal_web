@@ -20,15 +20,15 @@ export default function ProjectsPage() {
         {DATA.projects.map((project) => (
           <Row key={project.title} href={project.href}>
             <RowTop>
-              <span>{project.title}</span>
-              <span className="whitespace-nowrap text-muted-foreground">
+              <span className="font-mono">{project.title}</span>
+              <span className="whitespace-nowrap font-mono text-sm text-muted-foreground">
                 {project.dates}
               </span>
             </RowTop>
             <span className="block text-muted-foreground">
               {project.description}
             </span>
-            <span className="block text-[13px] text-muted-foreground/80">
+            <span className="block font-mono text-[13px] text-muted-foreground/80">
               {project.technologies.join(" · ")}
             </span>
           </Row>

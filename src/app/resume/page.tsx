@@ -10,17 +10,17 @@ export default function ResumePage() {
   return (
     <main className="flex flex-col gap-10">
       <section className="flex flex-col gap-1">
-        <h2 className="mb-3 text-[13px] uppercase tracking-[0.12em] text-muted-foreground">
+        <h2 className="mb-3 font-mono text-[13px] uppercase tracking-[0.12em] text-muted-foreground">
           Work
         </h2>
         {DATA.work.map((job) => (
           <Row key={`${job.company}-${job.title}`} href={job.href}>
             <RowTop>
-              <span>
+              <span className="font-mono">
                 {job.company}{" "}
                 <span className="text-muted-foreground">· {job.title}</span>
               </span>
-              <span className="whitespace-nowrap text-muted-foreground">
+              <span className="whitespace-nowrap font-mono text-sm text-muted-foreground">
                 {job.dates}
               </span>
             </RowTop>
@@ -29,17 +29,17 @@ export default function ResumePage() {
       </section>
 
       <section className="flex flex-col gap-1">
-        <h2 className="mb-3 text-[13px] uppercase tracking-[0.12em] text-muted-foreground">
+        <h2 className="mb-3 font-mono text-[13px] uppercase tracking-[0.12em] text-muted-foreground">
           Education
         </h2>
         {DATA.education.map((school) => (
           <Row key={school.school} href={school.href}>
             <RowTop>
-              <span>
+              <span className="font-mono">
                 {school.school}{" "}
                 <span className="text-muted-foreground">· {school.degree}</span>
               </span>
-              <span className="whitespace-nowrap text-muted-foreground">
+              <span className="whitespace-nowrap font-mono text-sm text-muted-foreground">
                 {school.dates}
               </span>
             </RowTop>
