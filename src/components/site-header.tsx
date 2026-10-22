@@ -8,7 +8,7 @@ const NAV = [
 
 export function SiteHeader() {
   return (
-    <header className="mb-14 flex flex-wrap items-baseline justify-between gap-4">
+    <header className="mb-14 flex font-mono text-[15px] flex-wrap items-baseline justify-between gap-4">
       <Link href="/" className="font-medium">
         carsonlin.dev
       </Link>

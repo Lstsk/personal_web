@@ -10,7 +10,7 @@ export default function ProjectsPage() {
   return (
     <main className="flex flex-col gap-10">
       <section className="flex flex-col gap-2">
-        <h1 className="font-medium">Projects</h1>
+        <h1 className="font-medium">projects</h1>
         <p className="text-muted-foreground">
           Things I built, newest first. Most are open source.
         </p>
@@ -20,15 +20,15 @@ export default function ProjectsPage() {
         {DATA.projects.map((project) => (
           <Row key={project.title} href={project.href}>
             <RowTop>
-              <span>{project.title}</span>
-              <span className="whitespace-nowrap text-muted-foreground">
+              <span className="font-mono">{project.title}</span>
+              <span className="whitespace-nowrap font-mono text-sm text-muted-foreground">
                 {project.dates}
               </span>
             </RowTop>
             <span className="block text-muted-foreground">
               {project.description}
             </span>
-            <span className="block text-[13px] text-muted-foreground/80">
+            <span className="block font-mono text-[13px] text-muted-foreground/80">
               {project.technologies.join(" · ")}
             </span>
           </Row>

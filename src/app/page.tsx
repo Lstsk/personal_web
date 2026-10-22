@@ -38,10 +38,10 @@ export default function Page() {
 
       <section className="-mx-5 flex flex-col gap-2 rounded bg-secondary px-5 py-5">
         <div className="flex items-baseline justify-between gap-5">
-          <h2 className="text-[13px] uppercase tracking-[0.12em] text-muted-foreground">
-            Now
+          <h2 className="font-mono text-[13px] tracking-[0.02em] text-muted-foreground">
+            now
           </h2>
-          <span className="text-[13px] text-muted-foreground">
+          <span className="font-mono text-[13px] text-muted-foreground">
             updated {DATA.now.updated}
           </span>
         </div>
@@ -53,14 +53,14 @@ export default function Page() {
       </section>
 
       <section className="flex flex-col gap-1">
-        <h2 className="mb-3 text-[13px] uppercase tracking-[0.12em] text-muted-foreground">
-          Selected projects
+        <h2 className="mb-3 font-mono text-[13px] tracking-[0.02em] text-muted-foreground">
+          selected projects
         </h2>
         {featured.map((project) => (
           <Row key={project.title} href={project.href}>
             <RowTop>
-              <span>{project.title}</span>
-              <span className="whitespace-nowrap text-muted-foreground">
+              <span className="font-mono">{project.title}</span>
+              <span className="whitespace-nowrap font-mono text-sm text-muted-foreground">
                 {project.dates}
               </span>
             </RowTop>
@@ -69,7 +69,7 @@ export default function Page() {
         ))}
         <Row href="/projects" className="text-primary">
           <RowTop>
-            <span>All projects</span>
+            <span className="font-mono">All projects</span>
             <span>→</span>
           </RowTop>
         </Row>

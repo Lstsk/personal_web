@@ -7,7 +7,7 @@ export const DATA = {
     "CS & Math at Swarthmore College. Building Hermes, researching ML, interning at Tesla.",
   intro: [
     "Hi, I'm Carson. I study computer science and mathematics at Swarthmore College, class of 2027.",
-    "This summer I'm at [Tesla](https://www.tesla.com) in Palo Alto writing software. The rest of my time goes to machine learning research at Swarthmore and to [Hermes](https://tryhermes.dev), an agentic outreach platform I'm building.",
+    "This summer I'm writing software at [Tesla](https://www.tesla.com). The rest of my time goes to machine learning research at Swarthmore and to [Hermes](https://tryhermes.dev), an agentic outreach platform I'm building.",
     "I like compilers, systems that have to answer in milliseconds, and the game of Go — enough that I built a server for it. Before all this: Gnosis Freight, BAE Systems, and Bank of Saipan.",
   ],
   avatarUrl: "/carson_pixel.webp",
@@ -22,8 +22,7 @@ export const DATA = {
   },
   social: [
     { name: "github", url: "https://github.com/Lstsk" },
-    // Add your handle after the slash to show this link.
-    { name: "x", url: "" },
+    { name: "x", url: "https://x.com/lincarson_" },
     { name: "linkedin", url: "https://www.linkedin.com/in/carson-lin/" },
     { name: "email", url: "mailto:carsonlin322@gmail.com" },
   ],

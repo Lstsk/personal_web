@@ -6,14 +6,20 @@ import { cn } from "@/lib/utils";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import type { Metadata } from "next";
-import { IBM_Plex_Mono } from "next/font/google";
+import { IBM_Plex_Mono, IBM_Plex_Sans } from "next/font/google";
 import "./globals.css";
 import { GoogleAnalytics } from "@next/third-parties/google";
+
+const fontSans = IBM_Plex_Sans({
+  subsets: ["latin"],
+  weight: ["400", "500"],
+  variable: "--font-sans",
+});
 
 const fontMono = IBM_Plex_Mono({
   subsets: ["latin"],
   weight: ["400", "500"],
-  variable: "--font-sans",
+  variable: "--font-mono",
 });
 
 export const metadata: Metadata = {
@@ -59,7 +65,8 @@ export default function RootLayout({
 
       <body
         className={cn(
-          "mx-auto min-h-screen max-w-[660px] bg-background px-6 py-16 font-sans text-[15px] leading-[1.75] antialiased sm:py-20",
+          "mx-auto min-h-screen max-w-[660px] bg-background px-6 py-16 font-sans text-base leading-[1.7] antialiased sm:py-20",
+          fontSans.variable,
           fontMono.variable
         )}
       >

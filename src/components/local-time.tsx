@@ -26,7 +26,7 @@ export function LocalTime({
   }, [timeZone]);
 
   return (
-    <span className="text-[13px]">
+    <span>
       {place}
       {time ? ` · ${time}` : ""}
     </span>
