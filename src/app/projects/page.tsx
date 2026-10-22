@@ -10,7 +10,7 @@ export default function ProjectsPage() {
   return (
     <main className="flex flex-col gap-10">
       <section className="flex flex-col gap-2">
-        <h1 className="font-medium">Projects</h1>
+        <h1 className="font-medium">projects</h1>
         <p className="text-muted-foreground">
           Things I built, newest first. Most are open source.
         </p>

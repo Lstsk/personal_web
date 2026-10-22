@@ -38,8 +38,8 @@ export default function Page() {
 
       <section className="-mx-5 flex flex-col gap-2 rounded bg-secondary px-5 py-5">
         <div className="flex items-baseline justify-between gap-5">
-          <h2 className="font-mono text-[13px] uppercase tracking-[0.12em] text-muted-foreground">
-            Now
+          <h2 className="font-mono text-[13px] tracking-[0.02em] text-muted-foreground">
+            now
           </h2>
           <span className="font-mono text-[13px] text-muted-foreground">
             updated {DATA.now.updated}
@@ -53,8 +53,8 @@ export default function Page() {
       </section>
 
       <section className="flex flex-col gap-1">
-        <h2 className="mb-3 font-mono text-[13px] uppercase tracking-[0.12em] text-muted-foreground">
-          Selected projects
+        <h2 className="mb-3 font-mono text-[13px] tracking-[0.02em] text-muted-foreground">
+          selected projects
         </h2>
         {featured.map((project) => (
           <Row key={project.title} href={project.href}>

@@ -10,8 +10,8 @@ export default function ResumePage() {
   return (
     <main className="flex flex-col gap-10">
       <section className="flex flex-col gap-1">
-        <h2 className="mb-3 font-mono text-[13px] uppercase tracking-[0.12em] text-muted-foreground">
-          Work
+        <h2 className="mb-3 font-mono text-[13px] tracking-[0.02em] text-muted-foreground">
+          work
         </h2>
         {DATA.work.map((job) => (
           <Row key={`${job.company}-${job.title}`} href={job.href}>
@@ -29,8 +29,8 @@ export default function ResumePage() {
       </section>
 
       <section className="flex flex-col gap-1">
-        <h2 className="mb-3 font-mono text-[13px] uppercase tracking-[0.12em] text-muted-foreground">
-          Education
+        <h2 className="mb-3 font-mono text-[13px] tracking-[0.02em] text-muted-foreground">
+          education
         </h2>
         {DATA.education.map((school) => (
           <Row key={school.school} href={school.href}>

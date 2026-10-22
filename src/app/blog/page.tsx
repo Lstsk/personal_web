@@ -11,7 +11,7 @@ export default async function BlogPage() {
 
   return (
     <main className="flex flex-col gap-10">
-      <h1 className="font-medium">Blog</h1>
+      <h1 className="font-medium">blog</h1>
 
       <section className="flex flex-col gap-1">
         {posts
