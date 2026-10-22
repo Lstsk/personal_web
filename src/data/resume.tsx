@@ -22,8 +22,7 @@ export const DATA = {
   },
   social: [
     { name: "github", url: "https://github.com/Lstsk" },
-    // Add your handle after the slash to show this link.
-    { name: "x", url: "" },
+    { name: "x", url: "https://x.com/lincarson_" },
     { name: "linkedin", url: "https://www.linkedin.com/in/carson-lin/" },
     { name: "email", url: "mailto:carsonlin322@gmail.com" },
   ],
